@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>Food Paradise</title>
+<link rel="icon" href="icon.png" type="image" sizes="16x16" align="center">
+
+<style>
+
+@font-face {
+  font-family: littlebossimport;
+  src: url("littleboss.otf");
+}
+.main {
+  font-family: littlebossimport;
+}
+body {
+  background-image: url("bg.png");
+  opacity: 1.0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+p{
+  border-left-style:double;
+  border-color:#ff4da6;
+  border-width:7px;
+  background-color: white;
+  font-size:35px;
+  text-align:center;
+}
+.footer{
+  font-size:30px;
+  text-align:left;
+  background-color:transparent;
+  position:fixed;
+  left:0;
+  bottom:-30;
+  width:100%;
+}
+.glow {
+  position: -webkit-sticky;
+  position: sticky;
+  top:20px;
+  font-size: 180px;
+  color: #000;
+  text-align: center;
+  opacity: 1.0;
+  text shadow: 8px 8px #4d4d33;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+from{text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;}
+to{text-shadow: 0 0 20px #fff, 0 0 30px #1ad1ff, 0 0 40px #1ad1ff, 0 0 50px #99ebff, 0 0 60px #99ebff, 0 0 70px #ff4da6, 0 0 80px #ff4da6;}
+}
+img{
+  height:220px;
+  width:auto;
+  padding:2px;
+  opacity:1.0;
+  position:relative;
+  transition:.3s;
+}
+img:hover{
+  height:180px;
+  width:auto;
+  position:relative;
+  transition-duration:.3s;
+}
+figure{
+  float:left;
+  text-align:center;
+  font-size:35px;
+  width:25%;
+  margin:0px;
+  padding:0px;
+}
+a:link{
+  text-decoration:none;
+}
+a.general:hover{
+  text-decoration:underline;
+  color:red;
+}
+a.title:hover{
+  text-decoration:none;
+}
+ul.navigationbar{
+  border-top-style:double;
+  border-bottom-style:double;
+  border-color:white;
+  border-width:7px;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#ff4da6; 
+}
+li.navigationbar{
+  float:left;
+}
+li a{
+  display:block;
+  color:white;
+  font-size:35px;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+li a:hover:not(.active){
+  text-decoration:underline;
+}
+li a:active{
+  background-color:white;
+  color:#ff4ad6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main">
+<a class="title" href="mainpage.html" target="blank"><h1 class="glow">=== FOOD PARADISE ===</h1></a>
+
+<ul class="navigationbar">
+<li class="navigationbar"><a href="mainpage.html">Home</a></li>
+<li class="navigationbar"><a href="breakfast.html">Breakfast</a></li>
+<li class="navigationbar"><a href="lunch.html">Lunch</a></li>
+<li class="navigationbar"><a href="tea.html">Tea</a></li>
+<li class="navigationbar"><a href="dinner.html">Dinner</a></li>
+<li class="navigationbar" style="float:right"><a href="contact.html">Contact Us</a></li>
+</ul>
+
+<p>Thank you very much for visiting our web page! We would like to know how you feel about it.</p>
+<p>You can share your thoughts with us via the email below, please do not hesitate to tell us anything regarding to the web page. <br>
+Your feedbacks are appreciated. We are glad to be of your service!</p>
+<p>Contact us: <a class="general" href="mailto:17112053@imail.sunway.edu.my">&copy Food Paradise 2018</a></p>
+
+</div>
+
+</body>
+
+</html>

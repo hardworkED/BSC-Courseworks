@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Mancala</title>
+	<link rel="stylesheet" href="styles/pushy-buttons.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+	<div id="game-container">
+		<div id="intro">
+			<h1>Mancala</h1>
+			<p>
+				Mancala is a 2-player board game played with seeds. The objective is to capture more seeds than the opponent. In other words, leave the opponent with no legal move or without seeds on the opponent side.
+			</p>
+			<p>
+				In the beginning, the bottom player lifts the seeds from any of the player holes and going counter-clockwise, distributes one seed in each hole. If the player reaches the end of the holes, player continues on the opposite side of the board. When the player drops his last seed, the player takes the seeds from the next hole and continues placing them in this way. If the last seed falls into a hole with an empty hole beyond, the seeds in the hole beyond the empty hole are captured by the player and put into his store and the player turn is over.
+			</p>
+			<strong>Instructions:</strong>
+			<ol>
+				<li>Select boardsize</li>
+				<li>Select seedsize</li>
+				<li>If against bot, select difficulty</li>
+				<li>Start new game</li>
+			</ol>
+		</div>
+		<div id="game">
+			<label>
+				Boardsize
+				<input type="number" name="boardsize" id="boardsize" value="14" step="2" min="8" max="20">
+			</label>
+			<label>
+				Seedsize
+				<input type="number" name="seedsize" id="seedsize" value="4" min="1" max="6">
+			</label>
+			<div class="d-inline-block">
+				<!-- <span><strong>AI Level</strong></span> -->
+				<label>Easy<input value="0" type="radio" name="difficulty" class="input-difficulty"></label>
+				<label>Medium<input value="1" type="radio" name="difficulty" class="input-difficulty" checked="checked"></label>
+				<label>Hard<input value="6" type="radio" name="difficulty" class="input-difficulty"></label>
+			</div>
+			<div class="d-flex align-items-center">
+				<div class="new-game">
+					<button data-type="0" class="new-game pushy__btn pushy__btn--df pushy__btn--blue">New Game - Human on Bottom (Plays First)</button>
+					<button data-type="1" class="new-game pushy__btn pushy__btn--df pushy__btn--blue">New Game - Human on Top (Plays Second)</button>
+					<button data-type="2" class="new-game pushy__btn pushy__btn--df pushy__btn--blue">New Game - Two Humans</button>
+				</div>
+				<div>
+					<strong>Scoreboard</strong>
+					<div class="d-flex flex-direction-column align-items-center">
+						<span id="score1" class="score top-player">0</span>
+						Top Player
+					</div>
+					<div class="d-flex flex-direction-column align-items-center">
+						<span id="score0" class="score bottom-player">0</span>
+						Bottom Player
+					</div>
+				</div>
+			</div>
+			<table>
+				<tr id="row1">
+				</tr>
+				<tr id="row2">
+				</tr>
+			</table>
+			<p>
+				<span id="turn">Start a new game with the buttons above.</span>
+			</p>
+		</div>
+	</div>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+	<script src="scripts/jquery.min.js"></script>
+
+    <script src="scripts/ais.js"></script>
+    <script src="scripts/models.js"></script>
+    <script src="scripts/controllers.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>

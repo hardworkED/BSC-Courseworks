@@ -1,0 +1,42 @@
+<html>
+<head>
+<style>
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#ff4da6; 
+}
+li{
+  float:left;
+}
+li a{
+  display:block;
+  color:white;
+  font-size:35px;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  duration:1s;
+}
+li a:hover{
+  text-decoration:underline;
+}
+li a:active{
+  background-color:white;
+  color:#ff4ad6;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="mainpage.html">Home</a></li>
+<li><a href="breakfast.html">Breakfast</a></li>
+<li><a href="lunch.html">Lunch</a></li>
+<li><a href="tea.html">Tea</a></li>
+<li><a href="dinner.html">Dinner</a></li>
+<li style="float:right"><a href="contact.html">Contact Us</a></li>
+</ul>
+</body>
+</html>

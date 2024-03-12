@@ -1,0 +1,310 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Food Paradise - Lunch</title>
+<link rel="icon" href="icon.png" type="image" sizes="16x16" align="center">
+
+<style>
+
+@font-face {
+  font-family: littlebossimport;
+  src: url("littleboss.otf");
+}
+.main {
+  font-family: littlebossimport;
+}
+body {
+  background-image: url("bg.png");
+  opacity: 1.0;
+  background-size:100%;
+  background-position:center;
+  background-repeat:repeat-y;
+  background-position:relative;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+*{
+  box-sizing:border-box;
+}
+.column{
+  float:left;
+  width:50%;
+  padding:10px;
+  height:auto;
+}
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+font{
+  font-size:35px;
+}
+a:link{
+  text-decoration:none;
+}
+a.general:hover{
+  text-decoration:underline;
+  color:red;
+}
+a.title:hover{
+  text-decoration:none;
+}
+p{
+  border-left-style:double;
+  border-color:#ff4da6;
+  border-width:7px;
+  background-color: white;
+  font-size:35px;
+  text-align:center;
+  left:50px;
+}
+li{
+  font-size:35px;
+}
+.glow {
+  top:20px;
+  font-size: 180px;
+  color: #000;
+  text-align: center;
+  opacity: 1.0;
+  text shadow: 8px 8px #4d4d33;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+from{text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;}
+to{text-shadow: 0 0 20px #fff, 0 0 30px #1ad1ff, 0 0 40px #1ad1ff, 0 0 50px #99ebff, 0 0 60px #99ebff, 0 0 70px #ff4da6, 0 0 80px #ff4da6;}
+}
+img{
+  height:auto;
+  width:100%;
+  padding:2px;
+  opacity:1.0;
+  position:relative;
+  transition:1s;
+}
+img:hover{
+  transform: scale(.9,.9);
+  transform-origin:center center;
+  transition-duration:1s;
+}
+
+figure{
+  float:left;
+  text-align:center;
+  font-size:35px;
+  width:25%;
+  margin:0px;
+  padding:0px;
+}
+ul.navigationbar{
+  position: -webkit-sticky;
+  position: sticky;
+  top:0px;
+  z-index: 9999;
+  border-top-style:double;
+  border-bottom-style:double;
+  border-color:white;
+  border-width:7px;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#ff4da6; 
+}
+li.navigationbar{
+  float:left;
+}
+li a{
+  display:block;
+  color:white;
+  font-size:35px;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+li a:hover:not(.active){
+  text-decoration:underline;
+}
+li a:active{
+  background-color:white;
+  color:#ff4ad6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main">
+<a class="title" href="mainpage.html" target="blank"><h1 class="glow">=== FOOD PARADISE ===</h1></a>
+
+<ul class="navigationbar">
+<li class="navigationbar"><a href="mainpage.html">Home</a></li>
+<li class="navigationbar"><a href="breakfast.html">Breakfast</a></li>
+<li class="navigationbar"><a href="lunch.html">Lunch</a></li>
+<li class="navigationbar"><a href="tea.html">Tea</a></li>
+<li class="navigationbar"><a href="dinner.html">Dinner</a></li>
+<li class="navigationbar" style="float:right"><a href="contact.html">Contact Us</a></li>
+</ul>
+
+<p><a class="general" href="#garlicky_shrimp_alfredo_bake">Garlicky Shrimp Alfredo Bake</a> // <a class="general" href="#dumpling_stir_fry">Dumpling Stir Fry</a> // <a class="general" href="#nashville_hot_chicken">Nashville Hot Chicken</a> // <a class="general" href="#mongolian_beef_ramen">Mongolian Beef ramen</a></p>
+
+<div class="row">
+
+<div class="column">
+<a href="alfredo-shrimp-bake.jpg" target="blank"><img src="alfredo-shrimp-bake.jpg"></a>
+<p>Click <a class="general" href ="https://www.youtube.com/watch?v=A3Zuq-gOs6o" target="blank">here</a> for tutorial video!</p>
+</div>
+
+<div class="column">
+<p><b><big><a id="garlicky_shrimp_alfredo_bake">Garlicky Shrimp Alfredo Bake</a></big></b></p>
+<p>Yields: 4 servings // Time taken: 25 minutes</p>
+<p>INGREDIENTS</p>
+<ul>
+<li>12 oz. penne</li>
+<li>3 tbsp. butter, divided</li>
+<li>3 cloves garlic, minced</li>
+<li>1 lb. raw medium or large shrimp, peeled and deveined</li>
+<li>2 tbsp. freshly chopped parsley, plus more for garnish</li>
+<li>Kosher salt</li>
+<li>2 tbsp. all-purpose flour</li>
+<li>3/4 c. milk (preferably whole or 2%)</li>
+<li>1/4 c. low-sodium chicken broth</li>
+<li>1 c. shredded mozzarella, divided</li>
+<li>1/4 c. plus 2 tbsp. freshly grated Parmesan, divided</li>
+<li>Freshly ground black pepper</li>
+<li>1 c. chopped tomatoes (2 large)</li>
+</ul>
+<p>DIRECTIONS</p>
+<ol>
+<li>Preheat oven to 350 Celsius. In a large pot of salted boiling water, cook penne according to package directions until al dente. Drain.</li>
+<li>Meanwhile, in a large oven-safe skillet over medium heat, melt 1 tablespoon of butter. Add garlic, shrimp, and parsley and season with salt. Cook until shrimp is pink and no longer opaque, 2 minutes per side. Transfer shrimp to a plate. (Keep juices in skillet.)</li>
+<li>Add remaining 2 tablespoons butter to skillet and let melt, then stir in flour and cook 1 minute. Add milk and broth and bring to a simmer. Stir in 3/4 cup of mozzarella and 1/4 cup of Parmesan and season with salt and pepper.</li>
+<li>Add shrimp, tomatoes, and cooked penne and toss until combined. (Add another splash of milk if mixture is too thick.)</li>
+<li>Sprinkle with remaining 1/4 cup mozzarella and 2 tablespoons Parmesan and bake until melty, 5 to 7 minutes.</li>
+<li>Garnish with parsley before serving.</li>
+</ol>
+</div>
+
+</div>
+
+<div class="column">
+<a href="dumpling-stir-fry.png" target="blank"><img src="dumpling-stir-fry.png"></a>
+<p>Click <a class="general" href ="https://www.youtube.com/watch?v=TZjHvOVByfg" target="blank">here</a> for tutorial video!</p>
+</div>
+
+<div class="column">
+<p><b><big><a id="dumpling_stir_fry">Dumpling Stir Fry</a></big></b></p>
+<p>Yields: 4 servings // Time taken: 25 minutes</p>
+<p>INGREDIENTS</p>
+<ul>
+<li>package frozen dumplings (pork, chicken or vegetable)</li>
+<li>2 tbsp. vegetable oil, divided</li>
+<li>2 bell peppers, sliced</li>
+<li>1/2 head broccoli, chopped into florets</li>
+<li>1 carrot, cut into matchsticks</li>
+<li>1 tbsp. finely chopped ginger</li>
+<li>2 cloves garlic, minced</li>
+<li>2 tbsp. sriracha</li>
+<li>2 tbsp. soy sauce</li>
+<li>1 tsp. sesame oil</li>
+<li>1 tbsp. honey</li>
+<li>1 tbsp. rice vinegar</li>
+<li>2 green onions, sliced</li>
+<li>Toasted sesame seeds, for garnish</li>
+</ul>
+<p>DIRECTIONS</p>
+<ol>
+<li>Heat a tablespoon of vegetable oil in a large nonstick skillet over medium heat. Add the dumplings in a single layer. Cook for 2 to 3 minutes per side, until golden-brown. Add water to the skillet until it covers the dumplings by about a third. Cover the skillet with a lid and cook until the dumplings are cooked through, about 5-8 minutes. Transfer dumplings to a plate. Wipe skillet clean.</li>
+<li>Heat another tablespoon vegetable oil in the skillet over medium-high heat. Add the broccoli and bell peppers, stirring occasionally, until crisp-tender, 8 to 10 minutes. Add the garlic and the ginger and cook until fragrant, about 1 minute. Stir in sesame oil Sriracha, soy sauce, honey and rice vinegar. Bring to simmer and cook, stirring gently, until the mixture reduces down slightly. Return the cooked dumplings to the skillet and toss with vegetables.</li>
+<li>Top with green onions and toasted sesame seeds before serving.</li>
+</ol>
+<br><br><br><br>
+</div>
+
+<div class="column">
+<a href="nashville-hot-chicken.jpg" target="blank"><img src="nashville-hot-chicken.jpg"></a>
+<p>Click <a class="general" href ="https://www.youtube.com/watch?v=rT7FduOfll8" target="blank">here</a> for tutorial video!</p>
+</div>
+
+<div class="column">
+<p><b><big><a id="nashville_hot_chicken">Nashville Hot Chicken</a></big></b></p>
+<p>Yields: 12 servings // Time taken: 3 hrs 45 minutes</p>
+<p>INGREDIENTS</p>
+<font>FOR THE CHICKEN</font>
+<ul>
+<li>3 to 4 lb. bone-in skin-on chicken breasts, wings, and thighs</li>
+<li>Kosher salt</li>
+<li>Freshly ground black pepper</li>
+<li>2 c. whole milk or buttermilk</li>
+<li>3 large eggs</li>
+<li>1 tbsp. hot sauce</li>
+<li>2 c. all-purpose flour</li>
+<li>2 tsp. paprika</li>
+<li>1 tsp. cayenne pepper</li>
+<li>4 c. vegetable oil, for frying</li>
+</ul>
+<font>FOR SPICY OIL</font>
+<ul>
+<li>4 tbsp. cayenne pepper</li>
+<li>2 tbsp. brown sugar</li>
+<li>1 tbsp. paprika</li>
+<li>1 tsp. garlic powder</li>
+<li>1 tsp. chili powder</li>
+<li>1 tsp. kosher salt</li>
+</ul>
+<p>DIRECTIONS</p>
+<ol>
+<li>In a large bowl, season chicken generously with salt and pepper. Cover with plastic wrap and let chill in fridge 3 hours or up to overnight.</li>
+<li>Line a large rimmed baking sheet with a metal rack. In a shallow bowl, whisk together milk, eggs, and hot sauce. In another shallow bowl, whisk together flour, paprika, and cayenne. Pat chicken dry, then dredge in flour mixture, then milk mixture, then flour mixture again, and place on wire rack. Repeat until all chicken is breaded. </li>
+<li>In a large pot, heat oil until a candy thermometer inserted into pot reads 350 Celsius. Working in batches, fry chicken until golden, about 6 to 8 minutes. Scoop out 1/2 cup hot oil, and let remaining oil cool in pot before discarding.</li> 
+<li>Make spicy oil: In a large heatproof bowl, whisk together cayenne pepper, brown sugar, paprika, garlic powder, chili powder, and salt. Pour in reserved hot frying oil and whisk to combine. Brush over chicken before serving.</li>
+</ol>
+</div>
+
+<div class="column">
+<a href="mongolian-beef-ramen.jpg" target="blank"><img src="mongolian-beef-ramen.jpg"></a>
+<p>Click <a class="general" href ="https://www.youtube.com/watch?v=H0CPYk7rxBk" target="blank">here</a> for tutorial video!</p>
+</div>
+
+<div class="column">
+<p><b><big><a id="mongolian_beef_ramen">Mongolian Beef Ramen</a></big></b></p>
+<p>Yields: 4 servings // Time taken: 30 minutes</p>
+<p>INGREDIENTS</p>
+<ul>
+<li>3 package instant ramen, flavor pack discarded</li>
+<li>2 tbsp. vegetable oil</li>
+<li>1 lb. sirloin steak, sliced against the grain</li>
+<li>2 tbsp. cornstarch</li>
+<li>1 tbsp. sesame oil</li>
+<li>3 garlic cloves, minced</li>
+<li>1 tsp. minced ginger</li>
+<li>1/2 c. soy sauce</li>
+<li>1/4 c. lightly packed brown sugar</li>
+<li>1 c. chicken (or beef) broth</li>
+<li>pinch red pepper flakes</li>
+<li>1 large head broccoli, cut into florets</li>
+<li>1 carrot, peeled and cut into matchsticks</li>
+<li>3 green onions, thinly sliced</li>
+<li>Toasted sesame seeds, for garnish</li>
+</ul>
+<p>DIRECTIONS</p>
+<ol>
+<li>Cook ramen noodles according to package instructions. Drain and set aside.</li>
+<li>In a large skillet over medium-high heat, heat oil. Toss beef with cornstarch. Add to skillet and cook until seared about 2 minutes per side. Transfer to a plate.</li>
+<li>Reduce heat to medium-low. Add sesame oil to skillet and stir in garlic and ginger. Cook until fragrant, 1 minute then add soy sauce, brown sugar, and broth. Bring mixture to a boil, reduce heat and simmer until the sauce is thickened, 3 to 5 minutes.</li>
+<li>Add broccoli and carrots then cover the skillet with a tight-fitting lid and cook until the vegetables are tender, about 5 minutes.</li>
+<li>Return beef to skillet and stir until completely coated in sauce. Stir in cooked ramen noodles and green onions. Garnish with toasted sesame seeds.</li>
+</ol>
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
